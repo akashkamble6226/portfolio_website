@@ -1,10 +1,13 @@
 import cssClasses from './Services.module.css';
-import { faLaptop } from '@fortawesome/free-solid-svg-icons/faLaptop';
-import { faCode } from '@fortawesome/free-solid-svg-icons/faCode';
-import { faLaptopCode } from '@fortawesome/free-solid-svg-icons/faLaptopCode';
-import { faCodePullRequest } from '@fortawesome/free-solid-svg-icons/faCodePullRequest';
+import { FiMapPin } from 'react-icons/fi';
+import { TbWorldWww } from 'react-icons/tb';
+import { CiMobile3 } from 'react-icons/ci';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { MdOutlineDesignServices } from 'react-icons/md';
+
+import { BsCodeSlash } from 'react-icons/bs';
+
+
 import Navbar from './Navbar';
 
 const Services = () => {
@@ -34,14 +37,14 @@ const Services = () => {
 
                         <div className={cssClasses.proj_status} >
                             <span className={cssClasses.completed}>
-                                <h1 className={cssClasses.proj_numbers1}>10+</h1>
+                                <h1 className={cssClasses.proj_numbers1}>4+</h1>
                                 <p className={cssClasses.proj_numbers_title1}>Project Completed</p>
                             </span>
 
-                            <span className={cssClasses.happy}>
+                            {/* <span className={cssClasses.happy}>
                                 <h1 className={cssClasses.proj_numbers2}>15+</h1>
                                 <p className={cssClasses.proj_numbers_title2}>Happy Clients</p>
-                            </span>
+                            </span> */}
                         </div>
 
 
@@ -54,15 +57,15 @@ const Services = () => {
                         <div className={cssClasses.web_design} >
 
                             <div className={cssClasses.circle}>
-                                <span>
-                                    <FontAwesomeIcon icon={faLaptop} size="2x" className={cssClasses.icon} />
+                                <span className={cssClasses.web_icon}>
+                                    <MdOutlineDesignServices size="2em" className={cssClasses.icon} />
                                 </span>
                             </div>
 
                             <div className={cssClasses.text}>
 
                                 <h5>Website Design</h5>
-                                <p>5 Projects</p>
+                                <p>1 Project</p>
 
                             </div>
 
@@ -73,14 +76,14 @@ const Services = () => {
 
                             <div className={cssClasses.circle}>
                                 <span>
-                                    <FontAwesomeIcon icon={faCode} size="2x" className={cssClasses.icon} />
+                                    <MdOutlineDesignServices size="2em" className={cssClasses.icon} />
                                 </span>
                             </div>
 
                             <div className={cssClasses.text}>
 
                                 <h5>Mobile App Design</h5>
-                                <p>5 Projects</p>
+                                <p>1 Project</p>
 
                             </div>
 
@@ -91,14 +94,14 @@ const Services = () => {
 
                             <div className={cssClasses.circle}>
                                 <span>
-                                    <FontAwesomeIcon icon={faLaptopCode} size="2x" className={cssClasses.icon} />
+                                    <BsCodeSlash  size="2em" className={cssClasses.icon} />
                                 </span>
                             </div>
 
                             <div className={cssClasses.text}>
 
                                 <h5>Website Building</h5>
-                                <p>5 Projects</p>
+                                <p>1 Project</p>
 
                             </div>
 
@@ -109,14 +112,14 @@ const Services = () => {
 
                             <div className={cssClasses.circle}>
                                 <span>
-                                    <FontAwesomeIcon icon={faCodePullRequest} size="2x" className={cssClasses.icon} />
+                                    <BsCodeSlash size="2em" className={cssClasses.icon} />
                                 </span>
                             </div>
 
                             <div className={cssClasses.text}>
 
                                 <h5>App Building</h5>
-                                <p>5 Projects</p>
+                                <p>1 Project</p>
 
                             </div>
 

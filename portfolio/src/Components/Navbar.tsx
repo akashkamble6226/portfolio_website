@@ -1,7 +1,6 @@
 import cssClasses from './Navbar.module.css';
 import { NavLink } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhone } from '@fortawesome/free-solid-svg-icons/faPhone';
+import { BsFillTelephoneOutboundFill } from 'react-icons/bs';
 
 
 const Navbar = () => {
@@ -49,7 +48,7 @@ const Navbar = () => {
 
 
                     <span className={cssClasses.phoneIcon}>
-                        <FontAwesomeIcon icon={faPhone} size="1x" className={cssClasses.icon} />
+                        <BsFillTelephoneOutboundFill size="1x" className={cssClasses.icon} />
                     </span>
                     <div>
 

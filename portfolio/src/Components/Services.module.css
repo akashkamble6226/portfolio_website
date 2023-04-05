@@ -32,7 +32,7 @@
 
 .services .left .serv_title {
 
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
     padding-bottom: 30px;
     
@@ -167,6 +167,15 @@ margin-bottom: 20px;
 }
 
 
+
+
+.icon{
+    
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+} 
 
 
 

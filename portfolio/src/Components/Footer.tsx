@@ -1,12 +1,14 @@
 import cssClasses from './Footer.module.css';
-import { faPhone } from '@fortawesome/free-solid-svg-icons/faPhone';
-import { faAddressBook } from '@fortawesome/free-solid-svg-icons/faAddressBook';
-import { faIdCard } from '@fortawesome/free-solid-svg-icons/faIdCard';
-import { faUser } from '@fortawesome/free-solid-svg-icons/faUser';
+import { FaUserAlt } from 'react-icons/fa';
+import { HiOutlineMail } from 'react-icons/hi';
+import { BsTelephoneFill } from 'react-icons/bs';
+import { FiMapPin } from 'react-icons/fi';
 
-
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { BsTwitter } from 'react-icons/bs';
+import { BsLinkedin } from 'react-icons/bs';
+import { BsInstagram } from 'react-icons/bs';
+import { SiOpensea } from 'react-icons/si';
+import portaitImg2 from '../Images/DSC05136_RR 1.jpg'
 
 
 const Footer = () => {
@@ -28,18 +30,18 @@ const Footer = () => {
                     {/* address */}
                     <div className={cssClasses.address}>
                         <span className={cssClasses.address_circle} >
-                            <FontAwesomeIcon icon={faAddressBook} size="2x" className={cssClasses.address_icon} />
+                            <FiMapPin size={'3em'} className={cssClasses.address_icon} />
                         </span>
 
-                        
-                            <h5 className={cssClasses.address_title}>
-                                Address
-                            </h5>
 
-                            <p className={cssClasses.address_desc}>
-                               Baramati
-                            </p>
-                        
+                        <h5 className={cssClasses.address_title}>
+                            Address
+                        </h5>
+
+                        <p className={cssClasses.address_desc}>
+                            Baramati
+                        </p>
+
                     </div>
 
 
@@ -47,7 +49,7 @@ const Footer = () => {
 
                     <div className={cssClasses.address}>
                         <span className={cssClasses.address_circle} >
-                            <FontAwesomeIcon icon={faIdCard} size="2x" className={cssClasses.address_icon} />
+                            <HiOutlineMail size={'3em'} className={cssClasses.address_icon} />
                         </span>
 
                         <h5 className={cssClasses.address_title}>
@@ -55,7 +57,7 @@ const Footer = () => {
                         </h5>
 
                         <p className={cssClasses.address_desc}>
-                        Official.akashk@gmail.com
+                            Official.akashk@gmail.com
                         </p>
                     </div>
 
@@ -65,49 +67,61 @@ const Footer = () => {
 
                     <div className={cssClasses.address}>
                         <span className={cssClasses.address_circle} >
-                            <FontAwesomeIcon icon={faPhone} size="2x" className={cssClasses.address_icon} />
+                            <BsTelephoneFill size={'3em'} className={cssClasses.address_icon} />
                         </span>
 
                         <h5 className={cssClasses.address_title}>
-                        Phone
+                            Phone
                         </h5>
 
                         <p className={cssClasses.address_desc}>
-                        +91 8605719895
+                            +91 8605719895
                         </p>
                     </div>
 
 
                 </div>
 
-
+                <hr className={cssClasses.horizontal_line} />
                 <div className={cssClasses.footer_info}>
 
-                    <span className={cssClasses.mine_photo}>
-                    <FontAwesomeIcon icon={faUser} size="2x" className={cssClasses.footer_img} />
-                    </span>
+                    {/* <span className={cssClasses.bottom_img_span}>
+                        <img src={portaitImg2} alt="Akash" className={cssClasses.bottom_img}/>
+
+                    </span> */}
 
                     <h5 className={cssClasses.mine_name}>
                         Akash Kamble
                     </h5>
 
                     <div className={cssClasses.mine_socila_media}>
+                        <a href='https://twitter.com/akash6226' target='_blank'>
+                            <span className={cssClasses.twitter} >
 
-                        <span className={cssClasses.twitter} >
-                        <FontAwesomeIcon icon={faUser} size="2x" className={cssClasses.footer_img} />
-                        </span>
+                                <BsTwitter size={'1.5em'} className={cssClasses.footer_img} />
 
+                            </span>
+                        </a>
+
+                        <a href='https://www.linkedin.com/in/akash-kamble-403467152/' target='_blank'>
                         <span className={cssClasses.linkedin} >
-                        <FontAwesomeIcon icon={faUser} size="2x" className={cssClasses.footer_img} />
+                            <BsLinkedin size={'1.5em'} className={cssClasses.footer_img} />
                         </span>
+                        </a>
 
+
+                        <a href='https://www.instagram.com/akashkamble6226/' target='_blank'>
                         <span className={cssClasses.instagram} >
-                        <FontAwesomeIcon icon={faUser} size="2x" className={cssClasses.footer_img} />
+                            <BsInstagram size={'1.5em'} className={cssClasses.footer_img} />
+                        </span>
+                        </a>
+
+                        <a href='https://opensea.io/collection/metagnet' target='_blank'>
+                        <span className={cssClasses.opensea} >
+                            <SiOpensea size={'1.5em'} className={cssClasses.footer_img} />
                         </span>
 
-                        <span className={cssClasses.opensea} >
-                        <FontAwesomeIcon icon={faUser} size="2x" className={cssClasses.footer_img} />
-                        </span>
+                        </a>
 
                     </div>
 
@@ -117,7 +131,7 @@ const Footer = () => {
 
             </div>
 
-            
+
         </>
 
     )

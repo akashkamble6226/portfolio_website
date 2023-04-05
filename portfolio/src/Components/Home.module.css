@@ -95,8 +95,21 @@
 }
 
 
-/* .pic {
+.pic {
+   display: flex;  
+   width: 50%;
+   height: 500px;
+   background-color: #000000;
+   border-radius: 10px;
 
-    background-color: orange;
+}
 
-} */
+.myImg{
+    
+    object-fit: contain;
+    width: 100%;
+    border-radius: 10px;
+    /* justify-content: right;
+    align-items: right; */
+
+}
