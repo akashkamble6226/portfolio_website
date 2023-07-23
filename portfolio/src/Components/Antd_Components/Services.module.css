@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins";
+  padding: 0;
+  margin: 0;
+}
+
+.services {
+  padding: 50px 10%;
+}
+
+.serv_title {
+  font-size: 50px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.desc_p1,
+.desc_p2 {
+  line-height: 2;
+  font-size: 16px;
+  font-weight: normal;
+  width: 80%;
+}
+
+.desc_p1 {
+  margin-bottom: 20px;
+}
+
+.proj_status {
+  display: block;
+  /* margin-top: 50px; */
+}
+
+.completed,
+.happy {
+  display: table-cell;
+}
+
+.proj_numbers1 {
+  position: relative;
+  font-size: 90px;
+}
+
+.proj_numbers_title1 {
+  padding: 0px;
+  padding-bottom: 50px;
+}
+
+.proj_numbers2 {
+  position: relative;
+  padding: 0px;
+  bottom: 10px;
+}
+
+.proj_numbers_title2 {
+  padding: 0px;
+}
+
+.completed {
+  padding-top: 10px;
+  padding-right: 80px;
+}
+
+.box1 .circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  background-color: #284051; /* Replace with your desired color */
+  border-radius: 50%;
+  color: white; /* Replace with your desired icon color */
+  font-size: 20; 
+  
+}
+.box2 .circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  background-color: #a8a180; /* Replace with your desired color */
+  border-radius: 50%;
+  color: white; /* Replace with your desired icon color */
+  font-size: 20; /* Adjust the icon size as needed */
+}
+
+.box3 .circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  background-color: #2e5128; /* Replace with your desired color */
+  border-radius: 50%;
+  color: white; /* Replace with your desired icon color */
+  font-size: 20; /* Adjust the icon size as needed */
+}
+
+.box4 .circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  background-color: #62ccc2; /* Replace with your desired color */
+  border-radius: 50%;
+  color: white; /* Replace with your desired icon color */
+  font-size: 20; /* Adjust the icon size as needed */
+}
+
+.box1 .circle span {
+  background-color: #284051;
+}
+
+.box2 .circle span {
+  background-color: #a8a180;
+}
+
+.box3 .circle span {
+  background-color: #2e5128;
+}
+
+.box4 .circle span {
+  background-color: #62ccc2;
+}
+.box1 {
+  border: 1px solid #a3a3a3;
+  border-radius: 10px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.box2 {
+  border: 1px solid #a3a3a3;
+  border-radius: 10px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.box3 {
+  border: 1px solid #a3a3a3;
+  border-radius: 10px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.box4 {
+  border: 1px solid #a3a3a3;
+  border-radius: 10px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.paddingAround {
+  padding: 15px;
+}

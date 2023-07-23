@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins";
+  padding: 0;
+  margin: 0;
+}
+
+.footer {
+  padding: 50px 10%;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.footer .title {
+  width: 60%;
+}
+
+.footer .title .heading {
+  font-size: 50px;
+  font-weight: bolder;
+  padding: 0px;
+  margin-bottom: 50px;
+}
+
+.footer .details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  padding: 10px;
+  margin: 0 auto;
+  background-color: #ededed;
+  border-radius: 35px;
+}
+
+.address_title,
+.address_desc {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+  background-color: #ededed;
+}
+
+.address_circle {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: #d58d48;
+  border-radius: 50%;
+}
+
+.address_icon {
+  background-color: #d58d48;
+
+  color: #ffffff;
+  margin: auto;
+}
+
+.address .address_title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.address .address_desc {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+.horizontal_line {
+  margin-top: 50px;
+  border-top: 1px solid #ededed;
+}
+
+.footer_info {
+  display: block;
+  padding-top: 50px;
+}
+
+.mine_photo {
+  display: flex;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #ededed;
+  margin: auto;
+}
+
+.mine_name {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.mine_socila_media {
+  display: flex;
+  justify-content: center;
+}
+
+.twitter,
+.linkedin,
+.instagram,
+.opensea {
+  display: flex;
+  margin: auto;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #ededed;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.footer_img {
+  /* background-color: #A3A3A3; */
+  color: #fff;
+  margin: auto;
+  color: #d58d48;
+
+  /* width: 50px;
+    height: 50px; */
+}
+
+/* .bottom_img_span{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+   
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .bottom_img{
+    
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} */

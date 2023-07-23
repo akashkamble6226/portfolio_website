@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+.nav_bar_background {
+  background-color: #ededed;
+}
+
+.generalInfo_desc {
+  padding-bottom: 25px;
+  padding-top: 20px;
+}
+
+.generalInfo {
+  display: flex;
+  padding: 0 10%;
+  justify-content: space-between;
+  background-color: #ededed;
+  padding-bottom: 5%;
+  padding-top: 2%;
+}
+
+.info {
+  display: block;
+  font-size: 40px;
+  font-weight: 400;
+  width: 507px;
+  font-family: "Poppins";
+  padding-right: 10px;
+}
+
+.info .generalInfo_title {
+  padding: 0 0;
+  margin: 0 0;
+}
+
+.info .generalInfo_desc {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.info .exp {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.info .exp .exp_years {
+  padding-bottom: 30px;
+  margin: 0;
+  float: left;
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.info .exp .text {
+  padding-top: 10px;
+  padding-left: 10px;
+  margin: 0;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.info .cvbtn {
+  width: 250px;
+  height: 45px;
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-weight: 200;
+  font-size: 20px;
+  background-color: #0c2120;
+  border: none;
+  color: white;
+  padding: 0px;
+  text-align: center;
+  margin-bottom: 50px;
+  text-decoration: none;
+  display: inline-block;
+
+  cursor: pointer;
+}
+
+.pic {
+  display: flex;
+  width: 50%;
+  height: 500px;
+  background-color: #000000;
+  border-radius: 10px;
+}
+
+.myImg {
+  object-fit: contain;
+  width: 100%;
+  border-radius: 10px;
+  /* justify-content: right;
+    align-items: right; */
+}
